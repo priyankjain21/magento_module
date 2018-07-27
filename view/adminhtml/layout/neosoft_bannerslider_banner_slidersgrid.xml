@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * 
+ *  @category  Priyank Jain
+ *  @package   Neosoft_BannerSlider
+ *  @copyright Copyright (c) 2018
+ *  @license   priyank.jain@wwindia.com
+ * 
+ */
+-->
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/layout_generic.xsd">
+    <container name="root" label="Root">
+        <block class="Neosoft\BannerSlider\Block\Adminhtml\Banner\Edit\Tab\Slider" name="banner.edit.tab.slider"/>
+    </container>
+</layout>

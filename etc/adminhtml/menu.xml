@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * 
+ *  @category  Priyank Jain
+ *  @package   Neosoft_BannerSlider
+ *  @copyright Copyright (c) 2018
+ *  @license   priyank.jain@wwindia.com
+ * 
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Neosoft_BannerSlider::bannerslider" title="Banner Slider" module="Neosoft_BannerSlider" sortOrder="20" resource="Neosoft_BannerSlider::bannerslider"/>
+        <add id="Neosoft_BannerSlider::banner" title="Banners" module="Neosoft_BannerSlider" sortOrder="10" action="neosoft_bannerslider/banner" resource="Neosoft_BannerSlider::banner" parent="Neosoft_BannerSlider::bannerslider"/>
+        <add id="Neosoft_BannerSlider::slider" title="Sliders" module="Neosoft_BannerSlider" sortOrder="20" action="neosoft_bannerslider/slider" resource="Neosoft_BannerSlider::slider" parent="Neosoft_BannerSlider::bannerslider"/>
+    </menu>
+</config>
